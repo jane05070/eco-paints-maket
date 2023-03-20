@@ -1,0 +1,57 @@
+.header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 80px;
+    
+} 
+
+.header__container{
+     display: flex;
+    align-items: center;
+    background-color: var(--acent-color);
+}
+
+.nav__list{
+    display: flex;
+    gap: 17px;
+    margin-left: 50px;    
+}
+
+.nav__item {
+    position: relative;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    
+}
+
+.nav__link{
+    color: #fff;
+    font-size: 10px;
+}
+
+.second__nav__list{
+    display: flex;
+    font-size: 10px;
+    color: var(--secondary-text-color);
+    margin-right: 50px;
+    margin-left: auto;
+    
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.nav__item__calculator{
+    padding-right: 16px;
+    
+}
+
+.nav__item__login{
+    padding-right: 17px;
+    }
+
+.nav__item__cart{
+padding-right: 5px;
+ }
+
+ 

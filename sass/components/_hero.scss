@@ -38,3 +38,45 @@ line-height: 66px;
     margin-top: 36px;
     border-radius: 4px;
 }
+
+.hero__cookies__title{
+    margin-right: 310px;
+    margin-left: 830px;
+    padding-bottom: 18px;
+    font-size: 11px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: var(--ouwer-text-color);
+}
+
+.hero__cookies {
+    margin-right: 75px;
+    margin-left: 830px;
+    font-size: 9px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: var(--ouwer-text-color);
+    padding-bottom: 18px;
+}
+
+.hero__link__manage{
+font-size: 8px;
+line-height: 9px;
+text-transform: uppercase;
+margin-left: 858px;
+color: var(--ouwer-text-color);
+padding-right: 89px;
+
+
+
+}
+
+.hero__link__accept {
+    font-size: 8px;
+    line-height: 9px;
+    text-transform: uppercase;
+    
+    color: var(--secondary-text-color);
+    
+}
+

@@ -1,20 +1,18 @@
-// .background__img {
-//     // background-color: var(--acent-color);
-//     background-image: url('../img/bg/bg.jpg');
-//     background-repeat: no-repeat;
-//     background-position: center;
-//     width: 1183px;
-//     height: 783px;
-//     background-size: cover;
-
-
-// }
+.background__img {
+    background-image: url('../img/bg/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    // width: 1183px;
+    // height: 783px;
+    background-size: cover;
+}
 
 
 
 .header__container{
      display: flex;
     align-items: center;
+    background-color: #fff;
     
 }
 

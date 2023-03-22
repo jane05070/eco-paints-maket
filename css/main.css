@@ -83,7 +83,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: var(--acent-color);
+ 
 }
 
 .nav__list {
@@ -128,7 +128,7 @@ body {
 }
 
 .bacground__img {
-  background-color: var(--acent-color);
+  
   background-image: url("../img/bg/bg.jpg");
   background-repeat: no-repeat;
   background-position: center;

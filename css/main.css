@@ -52,7 +52,7 @@ button {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding: 0 8px;
+  padding: 8px 9px 8px 8px;
 }
 
 .list {
@@ -76,13 +76,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-.header {
-  width: 100%;
-  top: 0;
-  left: 0;
-  height: 80px;
-}
-
 .header__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -98,13 +91,12 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 17px;
-  margin-left: 50px;
+  padding-left: 42px;
 }
 
 .nav__item {
   position: relative;
-  padding-top: 23px;
-  padding-bottom: 23px;
+  margin-top: 23px;
 }
 
 .nav__link {
@@ -118,26 +110,30 @@ body {
   display: flex;
   font-size: 10px;
   color: var(--secondary-text-color);
-  margin-right: 50px;
+  margin-right: 41px;
   margin-left: auto;
-  padding-top: 23px;
-  padding-bottom: 23px;
+  margin-top: 23px;
 }
 
 .nav__item__calculator {
-  padding-right: 16px;
+  margin-right: 16px;
 }
 
 .nav__item__login {
-  padding-right: 17px;
+  margin-right: 17px;
 }
 
 .nav__item__cart {
-  padding-right: 5px;
+  margin-right: 5px;
 }
 
-.hero {
+.bacground__img {
   background-color: var(--acent-color);
+  background-image: url("../img/bg/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1183px;
+  height: 783px;
 }
 
 .hero__title__container {

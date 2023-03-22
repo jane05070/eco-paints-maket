@@ -1,19 +1,19 @@
-.hero__title__container{
+.hero__title__container {
     width: 410px;
     height: 197px;
     margin-left: 42px;
     margin-top: 69px;
-    
+
 }
 
-.hero__title{
-font-family: sans-serif;
-color: var(--secondary-text-color);
-font-weight: 400;
-font-size: 63px;
-line-height: 66px;
+.hero__title {
+    font-family: sans-serif;
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 63px;
+    line-height: 66px;
 
-// border: 1px solid #000000;
+    // border: 1px solid #000000;
 
 }
 
@@ -35,7 +35,7 @@ line-height: 66px;
     border-radius: 4px;
 }
 
-.hero__cookies__title{
+.hero__cookies__title {
     margin-right: 310px;
     margin-left: 830px;
     padding-bottom: 18px;
@@ -43,6 +43,8 @@ line-height: 66px;
     line-height: 16px;
     text-transform: uppercase;
     color: var(--ouwer-text-color);
+    margin-top: 235px;
+    padding-bottom: 18px;
 }
 
 .hero__cookies {
@@ -55,15 +57,15 @@ line-height: 66px;
     padding-bottom: 18px;
 }
 
-.hero__link__manage{
-font-size: 8px;
-line-height: 9px;
-text-transform: uppercase;
-margin-left: 858px;
-color: var(--ouwer-text-color);
-padding-right: 89px;
-padding-bottom: 47px;
-padding-top: auto;
+.hero__link__manage {
+    font-size: 8px;
+    line-height: 9px;
+    text-transform: uppercase;
+    margin-left: 858px;
+    color: var(--ouwer-text-color);
+    padding-right: 89px;
+    
+   
 
 
 
@@ -73,11 +75,11 @@ padding-top: auto;
     font-size: 8px;
     line-height: 9px;
     text-transform: uppercase;
-    
+
     color: var(--secondary-text-color);
-    padding-bottom: 47px;
-    padding-top: auto;
     
+    
+
 }
 
 

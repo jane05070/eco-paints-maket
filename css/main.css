@@ -2,7 +2,7 @@
   --main-text-color: #212121;
   --secondary-text-color: #ffffff;
   --ouwer-text-color: #3C3C3C;
-  --acent-color: #425E44;
+  --accent-color: #425E44;
   --butons-port-color: #FFFFFF;
   --background-color: #ffffff;
   --main-font: Roboto, sans-serif;
@@ -76,6 +76,16 @@ body {
   letter-spacing: 0.03em;
 }
 
+.background {
+  background-image: url("../image/bg/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1200px;
+  height: 799px;
+  background-size: cover;
+  background-color: var(--accent-color);
+}
+
 .header__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -83,7 +93,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
- 
 }
 
 .nav__list {
@@ -127,15 +136,6 @@ body {
   margin-right: 5px;
 }
 
-.bacground__img {
-  
-  background-image: url("../img/bg/bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 1183px;
-  height: 783px;
-}
-
 .hero__title__container {
   width: 410px;
   height: 197px;
@@ -176,6 +176,8 @@ body {
   line-height: 16px;
   text-transform: uppercase;
   color: var(--ouwer-text-color);
+  margin-top: 235px;
+  padding-bottom: 18px;
 }
 
 .hero__cookies {

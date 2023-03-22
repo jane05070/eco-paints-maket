@@ -1,29 +1,29 @@
-.background__img {
-    background-image: url('../img/bg/bg.jpg');
+.background {
+    background-image: url('../image/bg/bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    // width: 1183px;
-    // height: 783px;
+    width: 1200px;
+    height: 799px;
     background-size: cover;
+    background-color: var(--accent-color);
+    
 }
-
 
 
 .header__container{
      display: flex;
     align-items: center;
-    background-color: #fff;
+    
     
 }
 
 .nav__list{
     display: flex;
-    // gap: 17px;
+    gap: 17px;
     padding-left: 42px;    
 }
 
-.nav__list:nth-child(){
-    margin-left: 17px;}
+
 
 .nav__item {
     position: relative;
@@ -59,3 +59,4 @@
 .nav__item__cart{
 margin-right: 5px;
 }
+

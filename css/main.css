@@ -204,4 +204,33 @@ body {
   line-height: 9px;
   text-transform: uppercase;
   color: var(--secondary-text-color);
+}
+
+.features {
+  background-color: var(--background-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 110px;
+  padding: 59px 103px 40px 103px;
+}
+
+.feauters__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 17px;
+}
+
+.feauters__number {
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--ouwer-text-color);
+}
+
+.feauters__info {
+  font-size: 9px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: var(--ouwer-text-color);
 }/*# sourceMappingURL=main.css.map */

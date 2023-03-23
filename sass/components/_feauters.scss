@@ -1,0 +1,27 @@
+.features{
+    background-color: var(--background-color);
+display: flex;
+    // flex-wrap: wrap;
+    gap: 110px;
+    padding: 59px 103px 40px 103px;
+
+}
+
+.feauters__item{
+    display: flex;
+    gap: 17px;
+}
+
+.feauters__number{
+    font-size: 18px;
+        line-height: 28px;
+        color: var(--ouwer-text-color);
+}
+
+.feauters__info{
+    font-size: 9px;
+        line-height: 14px; 
+        text-transform: uppercase;
+    
+        color: var(--ouwer-text-color);
+}

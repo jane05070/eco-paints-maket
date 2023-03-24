@@ -1,0 +1,50 @@
+.drops__title{
+    font-weight: 400;
+    font-size: 125px;
+    line-height: 131px;
+
+    text-align: center;
+    color: var(--title-color);
+    margin-bottom: 76px;
+}
+
+.drops__list{
+    display: flex;
+    gap: 37px 63px;
+    flex-wrap: wrap;
+    padding-left: 48px;
+    padding-right: 48px;
+    
+    
+}
+
+.drops__image{
+    width: 167px;
+    height: 167px;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+
+.drops__name{
+    font-weight: 400;
+        font-size: 9px;
+        line-height: 9px;
+    
+        text-align: center;
+        text-transform: uppercase;
+    
+        color: var(--ouwer-text-color);
+       
+}
+
+.drops__info{
+    font-weight: 400;
+        font-size: 9px;
+        line-height: 14px;
+        text-align: center;
+        text-transform: uppercase;
+    
+        color: var(--ouwer-text-color);
+        
+}

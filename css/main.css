@@ -9,6 +9,7 @@
   --title-color: #1F1E1E;
   --second-background-color: #F4EDE6;
   --button-color: #1F1E1E;
+  --third-background-color: #C6BC8A;
 }
 
 .visually-hidden {
@@ -238,7 +239,7 @@ body {
   color: var(--ouwer-text-color);
 }
 
-.drops__title {
+.gallery__title {
   font-weight: 400;
   font-size: 125px;
   line-height: 131px;
@@ -247,7 +248,7 @@ body {
   margin-bottom: 76px;
 }
 
-.drops__list {
+.gallery__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -258,14 +259,14 @@ body {
   padding-right: 48px;
 }
 
-.drops__image {
+.gallery__image {
   width: 167px;
   height: 167px;
   display: block;
   margin-bottom: 20px;
 }
 
-.drops__name {
+.gallery__name {
   font-weight: 400;
   font-size: 9px;
   line-height: 9px;
@@ -274,7 +275,7 @@ body {
   color: var(--ouwer-text-color);
 }
 
-.drops__info {
+.gallery__info {
   font-weight: 400;
   font-size: 9px;
   line-height: 14px;
@@ -283,7 +284,7 @@ body {
   color: var(--ouwer-text-color);
 }
 
-.drops__btn {
+.gallery__btn {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 9px;
@@ -438,4 +439,126 @@ body {
   display: block;
   margin-left: 8px;
   margin-right: 41px;
+}
+
+.put__colors__section {
+  padding-top: 235px;
+  padding-bottom: 65px;
+}
+
+.put__colors__container {
+  float: left;
+  display: block;
+  margin-right: 8px;
+  margin-left: 42px;
+  width: 546px;
+  height: 546px;
+}
+
+.put__colors__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.first {
+  background-image: url("../image/bg/room-colors1@1x.jpg");
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .first {
+    background-image: url("../image/bg/room-colors1@2x.jpg");
+    background-repeat: no-repeat;
+    width: 269px;
+    height: 269px;
+    background-size: cover;
+  }
+}
+
+.second {
+  background-image: url("../image/bg/room-colors2@1x.jpg");
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .second {
+    background-image: url("../image/bg/room-colors2@2x.jpg");
+    background-repeat: no-repeat;
+    width: 269px;
+    height: 269px;
+    background-size: cover;
+  }
+}
+
+.third {
+  background-image: url("../image/bg/room-colors3@1x.jpg");
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .third {
+    background-image: url("../image/bg/room-colors3@2x.jpg");
+    background-repeat: no-repeat;
+    width: 269px;
+    height: 269px;
+    background-size: cover;
+  }
+}
+
+.fourth {
+  background-image: url("../image/bg/room-colors4@1x.jpg");
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .fourth {
+    background-image: url("../image/bg/room-colors4@2x.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 269px;
+    height: 269px;
+    background-size: cover;
+  }
+}
+
+.put__colors__image {
+  padding: 60px 60px 59px 59px;
+}
+
+.put__colors__block {
+  display: inline-block;
+  width: 546px;
+  background-color: var(--third-background-color);
+}
+
+.put__colors__info {
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 58px;
+  text-align: center;
+  color: var(--accent-color);
+  margin: 157px 66px 25px 66px;
+}
+
+.put__colors__link__manage {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--accent-color);
+  margin-bottom: 163px;
+}
+
+.put__colors__text {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  margin-bottom: 49px;
+}
+
+.nav__block {
+  border-top: 1px solid rgb(236, 236, 236);
 }/*# sourceMappingURL=main.css.map */

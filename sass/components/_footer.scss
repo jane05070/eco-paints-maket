@@ -1,0 +1,38 @@
+.footer{
+    display: flex;
+}
+
+.footer__list{
+    margin-top: 33px;
+    margin-left: 42px;
+    
+
+    display: flex;
+    gap: 100px;
+
+}
+
+.footer__link{
+    font-weight: 400;
+font-size: 8px;
+line-height: 8px;
+
+
+color: var(--title-color);
+}
+
+.footer__settings__list{
+    display: flex;
+    gap: 17px;
+    margin-top: 33px;
+    margin-left: 650px;
+}
+
+ .footer__setting__link{
+    font-weight: 400;
+        font-size: 8px;
+        line-height: 8px;
+    
+    
+        color: var(--title-color);
+ }

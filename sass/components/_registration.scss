@@ -34,7 +34,17 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-     left: 283px;
+    left: 283px;
+    cursor: pointer;
+    fill: #1F1E1E;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+        &:hover,
+        &:focus {
+    
+            fill: var(--hover-text-color);
+    
+        }
 }
 
 .registration-info{
@@ -64,6 +74,8 @@
     margin-top: 50px;
     display: flex;
     gap: 50px;
+
+     
     
 }
 
@@ -77,12 +89,15 @@
     text-transform: uppercase;
     
     color: var(--title-color);
+
     
  }
 
  .content__item {
      color: var(--title-color);
      margin-bottom: 6px;
+
+     
  }
  
  .content__first__item{
@@ -91,10 +106,28 @@
 
  .content__link{
     color: var(--title-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    
+        &:hover,
+        &:focus {
+    
+            color: var(--hover-text-color);
+        }
  }
  
  .content__first__link{
     color: var(--ouwer-text-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    
+        &:hover,
+        &:focus {
+    
+            color: var(--hover-text-color);
+        }
  }
  
 
@@ -117,6 +150,15 @@
     
     
     color: var(--title-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    
+        &:hover,
+        &:focus {
+    
+            color: var(--hover-text-color);
+        }
  }
 
  .content__navigalion__list{

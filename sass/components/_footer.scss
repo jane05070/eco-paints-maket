@@ -17,8 +17,16 @@
 font-size: 8px;
 line-height: 8px;
 
-
 color: var(--title-color);
+
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+
+        color: var(--accent-color);
+
+    }
 }
 
 .footer__settings__list{
@@ -35,4 +43,13 @@ color: var(--title-color);
     
     
         color: var(--title-color);
+
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+            &:hover,
+            &:focus {
+        
+                color: var(--accent-color);
+        
+            }
  }
